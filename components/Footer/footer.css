@@ -184,14 +184,3 @@ footer .copyright{
     }
 }
 
-@media (max-device-width : 1075px) {
-    footer .copyright{
-        width: auto;
-        text-align: center;
-        margin-top: -3rem;
-        padding: 0 8rem;
-        position: relative;
-        z-index: 1;
-        left: 10vw;
-    }
-}
