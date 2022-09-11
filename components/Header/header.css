@@ -171,13 +171,34 @@ nav ul li:hover{
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     nav ul{
-        float: right;
-        margin-top: -0.7rem;
-        margin-right: 20px;
+        margin-top: -1rem;
+        padding-left: 5rem;
+    }
+
+    .logo{
+        margin-left: 1rem;
+        width: 12vw;
     }
 
     nav{
         height: 15vh;
+    }
+
+    nav ul li{
+        display: inline-block;
+        color: #242E52;
+        padding: 0 0rem;
+        line-height: 80px;
+        margin: 0 5px;
+        font-size: 13px;
+    }
+
+    .btn button{
+        width: auto;
+    }
+
+    .btn{
+        margin: 0 1rem 0 5rem;
     }
   }
 
