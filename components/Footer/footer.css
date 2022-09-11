@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: #1E1E26;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+footer .copyright{
+    color: #8C8C94;
+    font-weight: 100;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3rem;
+    padding: 0 6rem;
+}
+
+.container-footer{
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.columns{
+    /* background-color: red; */
+    height: 20vh;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-redes{
+    height: 22vh;
+}
+
+.atajos{
+    width: 15vw;
+    display: block;
+}
+
+.atajos p{
+    margin-bottom: 10px;
+}
+
+.columns .logo-footer{
+    width: 80%;
+}
+
+.redes img{
+    margin: 0 0.5rem;
+}
+
+.columns form input{
+    width: 15vw;
+    border-radius: 50px;
+    padding: 0.8rem 10px;
+    margin-right: 1rem;
+    border: none;
+}
+
+.columns form button{
+    background: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 1rem 20px;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container-footer{
+        flex-wrap: wrap-reverse;
+    }
+
+    .logo-redes{
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+
+    .redes{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .atajos{
+        width: 30vw;
+        display: block;
+
+    }
+
+    .columns form input{
+        width: 55vw;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .copyright{
+        margin-top: 3rem;
+        width: 220px;
+        padding: 0 0;
+        position: relative;
+    }
+
+    .columns .logo-footer{
+        width: 40vw;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container-footer{
+        flex-wrap: wrap-reverse;
+    }
+
+    .logo-redes{
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+
+    .redes{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .atajos{
+        width: 30vw;
+        display: block;
+
+    }
+
+    .columns form input{
+        width: 55vw;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .copyright{
+        margin-top: 3rem;
+        width: 220px;
+        padding: 0 0;
+        position: relative;
+    }
+
+    .columns .logo-footer{
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    footer .copyright{
+        width: 30vw;
+        text-align: center;
+        margin-top: -3rem;
+        padding: 0 3rem;
+        position: relative;
+        z-index: 1;
+        left: 60vw;
+    }
+}
+
+@media (max-device-width : 1075px) {
+    footer .copyright{
+        width: auto;
+        text-align: center;
+        margin-top: -3rem;
+        padding: 0 8rem;
+        position: relative;
+        z-index: 1;
+        left: 10vw;
+    }
+}

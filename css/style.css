@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.card-container-button button:hover{
+    background: rgba(139, 72, 191, 0.7);
+
+    padding: 8px 1rem;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 8vw;
+    height: 7vh;
+}
+
+
+.card-container-button button{
+    background-color: #8B48BF;
+
+    padding: 8px 1rem;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 8vw;
+    height: 7vh;
+}
+
+.btn-banner button{
+    padding: 1rem;
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 10vw;
+    height: 8vh;
+}
+
+
+.banner, .content{
+    margin-bottom: 5rem;
+    padding: 1rem 8rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.banner .part img{
+    width: 40vw;
+}
+
+.content{
+    align-items: baseline;
+}
+
+.part{
+    width: 40vw;
+}
+
+.part h1{
+    color: #232C50;
+    width: 30vw;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.part p{
+    font-size: 20px;
+    width: 28vw;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.banner-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-part h1{
+    color: #232C50;
+    width: 30vw;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.banner-part p{
+    font-size: 20px;
+    width: 28vw;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.viñetas{
+    margin-bottom: 5rem;
+}
+
+.viñetas h3{
+    margin-bottom: 2rem;
+}
+.titles{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.viñetas span{
+    background-color: #8B48BF;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 1.5rem;
+}
+
+.titles h3{
+    padding-top: 2rem;
+    padding-left: 1.8rem;
+}
+
+.viñetas p{
+    color: #B3B2B7;
+    margin-left: 5.8rem;
+}
+
+.opinions{
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinions h1{
+    color: rgba(36, 46, 83, 1);
+}
+
+.card-container{
+    width: 98vw;
+    margin: 6rem 0;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards{
+    margin: 0 1rem;
+    width: 30vw;
+    height: 45vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.description{
+    width: 30vw;
+    background-color: #FAFAFA;
+    padding: 5rem 2rem;
+    margin-top: -4rem;
+    z-index: -1;
+}
+
+.description h3{
+    color: #3F4868;
+    margin-bottom: 1rem;
+}
+
+.description p{
+    font-size: 14px;
+    color: #B9B9C1;
+}
+
+.anuncio{
+    background-color: #8B48BF;
+    color: white;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anuncio button{
+    color: #8B48BF;
+    border-radius: 50px;
+    width: 10vw;
+    border: none;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .banner{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    .banner .part img{
+        width: 80vw;
+        margin-bottom: 8rem;
+    }
+
+    .part{
+        width: 50vw;
+    }
+
+    .part h1{
+        color: #232C50;
+        width: 80vw;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    
+    .part p{
+        font-size: 20px;
+        width: 80vw;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .btn-banner button{
+        width: auto;
+        height: auto;
+    }
+
+    .banner-part{
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+    .viñetas{
+        height: 50vh;
+        width:80vw;
+    }
+
+    .titles{
+        background-color:  rgba(139, 72, 191, 0.3);
+        height: 8vh;
+        width: 285px;
+        border-radius: 30px 0 0 30px;
+        margin-bottom: 3rem;
+        padding-right: 1rem;
+    }
+
+    .titles h3{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+
+    .titles span{
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 30px;
+        padding: 12px 1.5rem;
+    }
+
+    .viñetas p{
+        color: #B3B2B7;
+        margin-left: 0rem;
+    }
+
+    .cards{
+        margin: 2rem 2rem;
+        width: 80vw;
+        height: 65vh;
+    }
+
+    .description{
+        width: auto;
+        background-color: #FAFAFA;
+        padding: 5rem 2rem;
+        margin-top: -4rem;
+        z-index: -1;
+    }
+
+    .card-container-button button{
+        width: auto;
+    }
+
+    .anuncio{
+        flex-direction: column;
+        text-align: center;
+        padding: 5rem 1.5rem;
+    }
+
+    .anuncio button{
+        margin-top: 2rem;
+        width: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
