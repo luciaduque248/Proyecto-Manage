@@ -308,7 +308,114 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .banner{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    .banner .part img{
+        width: 80vw;
+        margin-bottom: 8rem;
+    }
+
+    .part{
+        width: 50vw;
+    }
+
+    .part h1{
+        color: #232C50;
+        width: 80vw;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
     
+    .part p{
+        font-size: 20px;
+        width: 80vw;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .btn-banner button{
+        width: auto;
+        height: auto;
+    }
+
+    .banner-part{
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content{
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+    .viñetas{
+        height: 50vh;
+        width:80vw;
+    }
+
+    .titles{
+        background-color:  rgba(139, 72, 191, 0.3);
+        height: 8vh;
+        width: 85vw;
+        border-radius: 30px 0 0 30px;
+        margin-bottom: 3rem;
+        padding-right: 1rem;
+    }
+
+    .titles h3{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+
+    .titles span{
+        background-color: #8B48BF;
+        color: white;
+        border-radius: 30px;
+        padding: 12px 1.5rem;
+    }
+
+    .viñetas p{
+        color: #B3B2B7;
+        margin-left: 0rem;
+    }
+
+    .cards{
+        margin: 2rem 2rem;
+        width: 80vw;
+        height: 65vh;
+    }
+
+    .description{
+        width: auto;
+        background-color: #FAFAFA;
+        padding: 5rem 2rem;
+        margin-top: -4rem;
+        z-index: -1;
+    }
+
+    .card-container-button button{
+        width: auto;
+    }
+
+    .anuncio{
+        flex-direction: column;
+        text-align: center;
+        padding: 5rem 1.5rem;
+    }
+
+    .anuncio button{
+        margin-top: 2rem;
+        width: auto;
+    }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
