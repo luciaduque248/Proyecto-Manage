@@ -169,7 +169,7 @@ nav ul li:hover{
     }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1365px) {
     nav ul{
         margin-top: -1rem;
         padding-left: 5rem;
